@@ -1,5 +1,5 @@
 package go_say_angjay
 
-func SayAngjay() string {
-	return "Halo, ini angjay version 1"
+func SayAngjay(name string) string {
+	return "Halo, ini angjay juga lu," + name
 }
